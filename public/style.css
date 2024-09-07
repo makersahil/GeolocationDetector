@@ -1,0 +1,26 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100%;
+    margin: 0;
+    background-color: #008080;
+}
+
+.container{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    border-radius: 20px;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    flex-direction: column;
+}
+
+#output {
+    margin-top: 10px;
+}
